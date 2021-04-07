@@ -11,6 +11,8 @@ set number
 
 " Change tab to spaces in Elm files.
 autocmd Filetype elm setlocal expandtab
+" Change tab to 2 spaces in JSON files.
+autocmd Filetype json setlocal expandtab tabstop=2 shiftwidth=2
 
 " Stuff for Vundle to work.
 set rtp+=~/.vim/bundle/Vundle.vim
