@@ -33,6 +33,9 @@ let g:gruvbox_contrast_dark='hard'
 " Set the color scheme.
 colorscheme gruvbox
 
+" Do not open complete options in a split window.
+set completeopt-=preview
+
 " Remap Ctrl+Shift+ArrowKeys to move betweens splits,
 nnoremap <C-S-Left> <C-W><C-H>
 nnoremap <C-S-Right> <C-W><C-L>
