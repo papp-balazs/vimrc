@@ -22,6 +22,7 @@ call vundle#begin()
 Plugin 'morhetz/gruvbox'
 Plugin 'preservim/nerdtree'
 Plugin 'ycm-core/YouCompleteMe'
+Plugin 'vhdirk/vim-cmake'
 
 call vundle#end()
 
