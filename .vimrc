@@ -9,6 +9,9 @@ set autoindent
 " Show line number
 set number
 
+" Show line at the 80th char
+set colorcolumn=80
+
 " Change tab to spaces in Elm files.
 autocmd Filetype elm setlocal expandtab
 " Change tab to 2 spaces in JSON files.
